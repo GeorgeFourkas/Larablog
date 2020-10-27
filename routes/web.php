@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminsController;
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,8 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 Route::get('/admin',[AdminsController::class, 'index'])->name('admin.index');
+Route::get('/post',[PostController::class, 'show'])->name('post');
+
+
+
+

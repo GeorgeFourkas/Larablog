@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91cc0d02-4051-41b1-b85e-ab1c51307db3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/blog-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/blog-post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/sb-admin-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/sb-admin-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/sb-admin-2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/admin-master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/home-master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BlogLaravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BlogLaravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog-post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/home-master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/home-master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +165,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -209,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603812437082</updated>
-      <workItem from="1603812438318" duration="8284000" />
+      <workItem from="1603812438318" duration="9388000" />
     </task>
     <task id="LOCAL-00001" summary="Initail Commit">
       <created>1603812929024</created>
@@ -218,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603812929024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add admin panel for users">
+      <created>1603822376778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603822376778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,24 +210,29 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Initail Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initail Commit" />
+    <MESSAGE value="Add admin panel for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add admin panel for users" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="388" key="#com.intellij.ide.actionMacro.EditMacrosDialog" timestamp="1603814131555">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="388" key="#com.intellij.ide.actionMacro.EditMacrosDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603814131555" />
-    <state x="585" y="102" key="CommitChangelistDialog2" timestamp="1603812926720">
+    <state x="585" y="102" key="CommitChangelistDialog2" timestamp="1603822376167">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="102" key="CommitChangelistDialog2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603812926720" />
+    <state x="585" y="102" key="CommitChangelistDialog2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603822376166" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1603822447085">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603822447085" />
     <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603812951373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603812951373" />
-    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603812755369">
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603822359634">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603812755369" />
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603822359634" />
   </component>
 </project>
