@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91cc0d02-4051-41b1-b85e-ab1c51307db3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/datatable-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PermissionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Policies/PostPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_05_213419_create_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_06_180153_create_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_06_180426_create_users_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_06_180513_create_users_roles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_06_180643_create_roles_permissions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/TestSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/bootstrap-4.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/default.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/semantic-ui.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-bootstrap-4.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-default.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/simple-tailwind.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/tailwind.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/admin-master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin-sidebar-posts-links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-sidebar-posts-links.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Blade" />
         <option value="JavaScript File" />
+        <option value="Blade" />
       </list>
     </option>
   </component>
@@ -165,6 +181,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -208,7 +225,19 @@
       <workItem from="1604190394047" duration="4651000" />
       <workItem from="1604257851424" duration="1216000" />
       <workItem from="1604332499068" duration="5890000" />
-      <workItem from="1604346052070" duration="3828000" />
+      <workItem from="1604346052070" duration="9337000" />
+      <workItem from="1604416953609" duration="2509000" />
+      <workItem from="1604420604599" duration="7234000" />
+      <workItem from="1604437059277" duration="363000" />
+      <workItem from="1604438174484" duration="2000" />
+      <workItem from="1604497457286" duration="8112000" />
+      <workItem from="1604512477705" duration="4043000" />
+      <workItem from="1604532308985" duration="1424000" />
+      <workItem from="1604540407444" duration="3862000" />
+      <workItem from="1604590670160" duration="4891000" />
+      <workItem from="1604682776748" duration="1015000" />
+      <workItem from="1604755508756" duration="3000" />
+      <workItem from="1604870438061" duration="5425000" />
     </task>
     <task id="LOCAL-00001" summary="Initail Commit">
       <created>1603812929024</created>
@@ -238,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604257870221</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add admin panel for users">
+      <created>1604361209565</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604361209565</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,25 +292,33 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="719" y="388" key="#com.intellij.ide.actionMacro.EditMacrosDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603814131555" />
-    <state x="585" y="102" key="CommitChangelistDialog2" timestamp="1604257866424">
+    <state x="585" y="102" key="CommitChangelistDialog2" timestamp="1604361209005">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="102" key="CommitChangelistDialog2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604257866424" />
+    <state x="585" y="102" key="CommitChangelistDialog2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604361209005" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1604511979812">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604511979812" />
     <state x="835" y="423" key="Github.ShareDialog" timestamp="1603839581376">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="835" y="423" key="Github.ShareDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603839581376" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1604171751601">
+    <state x="461" y="170" key="SettingsEditor" timestamp="1604510952363">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604171751601" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604257870006">
+    <state x="461" y="170" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604510952363" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604361213117">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604257870006" />
-    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603839478293">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604361213117" />
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604361201949">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603839478293" />
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604361201949" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1604503898841">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604503898841" />
   </component>
 </project>

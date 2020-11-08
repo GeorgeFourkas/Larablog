@@ -20,7 +20,7 @@ class Post extends Model
 //        $this->attributes['post_image'] = asset($value);
 //    }
     //second method - accesor
-    public function getPostimageAttribute($value){
+    public function getPostImageAttribute($value){
         return asset($value);
     }
 
